@@ -172,11 +172,11 @@ const BLOG = {
   // 代码主题 @see https://github.com/PrismJS/prism-themes
   PRISM_THEME_PREFIX_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH ||
-    'https://github.com/PrismJS/prism-themes/blob/master/themes/prism-material-oceanic.css', // 代码块默认主题,https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css
-  PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || false, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
+    'https://github.com/PrismJS/prism-themes/blob/master/themes/prism-shades-of-purple.css', // 代码块默认主题,https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css
+  PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || true, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
   PRISM_THEME_LIGHT_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_LIGHT_PATH ||
-    'https://github.com/PrismJS/prism-themes/blob/master/themes/prism-material-oceanic.css', // 浅色模式主题,https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-solarizedlight.css
+    'https://github.com/PrismJS/prism-themes/blob/master/themes/prism-shades-of-purple.css', // 浅色模式主题,https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-solarizedlight.css
   PRISM_THEME_DARK_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_DARK_PATH ||
     'https://github.com/PrismJS/prism-themes/blob/master/themes/prism-material-oceanic.css', // 深色模式主题
